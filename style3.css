@@ -1,0 +1,34 @@
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+div{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.inicio{
+    height: 100px;
+    background-color: #ffc9ff;
+    
+}
+.contenido{
+    height: 460px;
+}
+.pie{
+    height: 100px;
+    background-color: #cb87f5;
+}
+.titulos{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Roboto; 
+    font-weight: 700;
+}
+
